@@ -4,10 +4,11 @@
 *Raw data from both train and test data sets are organized in same way  
 *Variables are as follows   
   
-  Variable Name 		       | Variable Type | Values   | Data containing files        ---------------------------------------| --------------| -------- |-------------------------------------    
+  Variable Name 		       | Variable Type | Values   | Data containing files  
+---------------------------------------| --------------| -------- |-------------------------------------  
   subject       	               | Categorical   | 1 to 30  |subject_test.txt or subject_train.txt  
-  activity      	               | Categorical   |  1 to 6  |y_test.txt of y_train.txt              
-  561 items in the "features.txt" file | Continuous    |any number|X_test.txt or X_train.txt              
+  activity      	               | Categorical   |  1 to 6  |y_test.txt of y_train.txt  
+  561 items in the "features.txt" file | Continuous    |any number|X_test.txt or X_train.txt  
   
   
 ##Data Tidying and Summarizing Description  
