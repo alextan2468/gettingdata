@@ -24,6 +24,8 @@ tidyup <- function(){
   
   #Requirement4:Appropriately labels the data set with descriptive variable names
   headernames <- c("subject","activity",featureheader[,2])
+  headernames<-tolower(headernames)
+  headernames<-sub("\\()","",headernames)
   #Set the header names to the merged data frame
   colnames(mergedf) <- headernames
   
